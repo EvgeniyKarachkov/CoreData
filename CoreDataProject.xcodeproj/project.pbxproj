@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8400F6A026FF43EF0036381C /* DataFromNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400F69F26FF43EF0036381C /* DataFromNetwork.swift */; };
+		8400F6A226FF45DA0036381C /* CovidData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400F6A126FF45DA0036381C /* CovidData.swift */; };
+		8400F6A426FF46C30036381C /* CountryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400F6A326FF46C30036381C /* CountryCode.swift */; };
 		84B090FA26FB145100E2CF99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B090F926FB145100E2CF99 /* AppDelegate.swift */; };
 		84B090FC26FB145100E2CF99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B090FB26FB145100E2CF99 /* SceneDelegate.swift */; };
 		84B090FE26FB145100E2CF99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B090FD26FB145100E2CF99 /* ViewController.swift */; };
@@ -14,9 +17,14 @@
 		84B0910426FB145100E2CF99 /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84B0910226FB145100E2CF99 /* CoreDataProject.xcdatamodeld */; };
 		84B0910626FB145400E2CF99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B0910526FB145400E2CF99 /* Assets.xcassets */; };
 		84B0910926FB145400E2CF99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B0910726FB145400E2CF99 /* LaunchScreen.storyboard */; };
+		84FC93D02701C4B600A94158 /* CovidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC93CF2701C4B600A94158 /* CovidViewController.swift */; };
+		84FC93D227033E1D00A94158 /* WorkWithCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC93D127033E1D00A94158 /* WorkWithCoreData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8400F69F26FF43EF0036381C /* DataFromNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFromNetwork.swift; sourceTree = "<group>"; };
+		8400F6A126FF45DA0036381C /* CovidData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidData.swift; sourceTree = "<group>"; };
+		8400F6A326FF46C30036381C /* CountryCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCode.swift; sourceTree = "<group>"; };
 		84B090F626FB145100E2CF99 /* CoreDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B090F926FB145100E2CF99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84B090FB26FB145100E2CF99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +34,8 @@
 		84B0910526FB145400E2CF99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84B0910826FB145400E2CF99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84B0910A26FB145400E2CF99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FC93CF2701C4B600A94158 /* CovidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidViewController.swift; sourceTree = "<group>"; };
+		84FC93D127033E1D00A94158 /* WorkWithCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWithCoreData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +52,9 @@
 		84B090ED26FB145100E2CF99 = {
 			isa = PBXGroup;
 			children = (
+				8400F69F26FF43EF0036381C /* DataFromNetwork.swift */,
+				8400F6A326FF46C30036381C /* CountryCode.swift */,
+				8400F6A126FF45DA0036381C /* CovidData.swift */,
 				84B090F826FB145100E2CF99 /* CoreDataProject */,
 				84B090F726FB145100E2CF99 /* Products */,
 			);
@@ -61,6 +74,8 @@
 				84B090F926FB145100E2CF99 /* AppDelegate.swift */,
 				84B090FB26FB145100E2CF99 /* SceneDelegate.swift */,
 				84B090FD26FB145100E2CF99 /* ViewController.swift */,
+				84FC93D127033E1D00A94158 /* WorkWithCoreData.swift */,
+				84FC93CF2701C4B600A94158 /* CovidViewController.swift */,
 				84B090FF26FB145100E2CF99 /* Main.storyboard */,
 				84B0910526FB145400E2CF99 /* Assets.xcassets */,
 				84B0910726FB145400E2CF99 /* LaunchScreen.storyboard */,
@@ -141,9 +156,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				84B090FE26FB145100E2CF99 /* ViewController.swift in Sources */,
+				8400F6A426FF46C30036381C /* CountryCode.swift in Sources */,
 				84B090FA26FB145100E2CF99 /* AppDelegate.swift in Sources */,
+				84FC93D02701C4B600A94158 /* CovidViewController.swift in Sources */,
+				84FC93D227033E1D00A94158 /* WorkWithCoreData.swift in Sources */,
 				84B0910426FB145100E2CF99 /* CoreDataProject.xcdatamodeld in Sources */,
+				8400F6A226FF45DA0036381C /* CovidData.swift in Sources */,
 				84B090FC26FB145100E2CF99 /* SceneDelegate.swift in Sources */,
+				8400F6A026FF43EF0036381C /* DataFromNetwork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
