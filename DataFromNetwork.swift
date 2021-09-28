@@ -55,18 +55,26 @@ class DataFromNetwork: UITableViewCell {
             totalDeath.text = "Total Death: No data"
         }
         
+        
+       
+        
         DispatchQueue.global().async {
             
             let image: UIImage?
   
             if let url = url, let imageUrl = URL(string: url), let imageData = try? Data(contentsOf: imageUrl) {
                 image = UIImage(data: imageData)
+                
             } else {
                 image = UIImage(named: "NoImage")
             
             }
             DispatchQueue.main.async {
                 self.imageFlag.image = image
+                self.imageFlag.layer.cornerRadius = 50
+                self.imageFlag.clipsToBounds = true
+                
+                
             }
         }
     }
