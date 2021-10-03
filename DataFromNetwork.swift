@@ -37,7 +37,7 @@ class DataFromNetwork: UITableViewCell {
         }
         
         
-        if data.newDeath != "" {
+        if data.newDeath != ""  {
             newDeath.text = "New Death: \(data.newDeath!)"
         } else {
             newDeath.text = "New  Death: No data"
