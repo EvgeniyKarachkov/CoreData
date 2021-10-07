@@ -69,6 +69,8 @@ class DataFromNetwork: UITableViewCell {
                 image = UIImage(named: "NoImage")
             
             }
+            
+            
             DispatchQueue.main.async {
                 self.imageFlag.image = image
                 self.imageFlag.layer.cornerRadius = 50
