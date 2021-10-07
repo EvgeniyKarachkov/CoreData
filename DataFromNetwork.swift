@@ -59,7 +59,7 @@ class DataFromNetwork: UITableViewCell {
        
         
         DispatchQueue.global().async {
-            
+             
             let image: UIImage?
   
             if let url = url, let imageUrl = URL(string: url), let imageData = try? Data(contentsOf: imageUrl) {
